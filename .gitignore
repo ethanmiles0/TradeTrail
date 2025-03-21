@@ -1,0 +1,10 @@
+.cache
+AGENTS.md
+.venv
+dist
+CLAUDE.md
+build
+.claude
+*.pyc
+.trade_trail/
+__pycache__
