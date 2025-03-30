@@ -13,3 +13,15 @@ This repository evolves incrementally like a weekend/evening hobby project.
 
 No runtime guarantees; code may be rough while iterating.
 
+## Usage (CLI)
+Example adding an entry:
+
+```
+python -m trade_trail.cli add BTC-USD buy 0.1 62000 --tags swing log --note "broke out on HTF"
+```
+
+List entries:
+
+```
+python -m trade_trail.cli list
+```
